@@ -772,7 +772,12 @@ height: 600px;
     .esati{
         margin-right: 0px;
     }
-   
+    .box4-content{
+        margin-bottom: 0px;
+    }
+    .pjesa-aplikimit{
+        margin-top: 100px;
+    }
 
 }
 @media screen and (max-width: 600px) {
@@ -868,4 +873,77 @@ height: 600px;
 }
 html{
     scroll-behavior: smooth !important;
+}
+
+/* modali loginit */
+.logomodal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+::marker{
+    font-size: 0 !important;
+}
+.modaliloginit{
+    margin-top: 100px;
+    background-color: #002f49;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px 10px;
+}
+.trupimodalit{
+    padding: 50px 20px;
+}
+.btn-close{
+    background-color: #fff !important;
+    transition: 00.3s;
+    border-radius: 10px;
+}
+.form-label{
+    color: #fff;
+}
+.modal-footer{
+    color: #fff;
+}
+.noacc{
+    font-size: 14px !important;
+}
+.noacc a{
+    color: #eb616b;
+}
+.form-check-label{
+    color: #fff;
+    font-size: 14px;
+}
+.perdoruesi{
+    border-radius: 10px;
+}
+.form-check-input{
+    background-color: #fff;
+}
+.form-check-input:focus{
+    background-color: #00b6be;
+}
+.btn-warning{
+    background-color: #006aa3;
+
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    border-radius: 25px;
+     font-size: 16px;
+    border: 1px #00b6be solid;
+}
+.perdoruesi:focus{
+    box-shadow: none;
+    box-shadow: #00b6be 2px solid ;
+}
+
+.btn-warning:hover{
+    background-color: #649fbeb7;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    border: 1px #00b6be solid;
 }

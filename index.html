@@ -50,11 +50,12 @@
             </ul>
             <form class="d-flex">
               <input class="form-control searchbar me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class=" login-buttoni4" >Kyqu</button>
+              <button class=" login-buttoni4" type="button"  data-bs-toggle="modal" data-bs-target="#modalForm" >Kyqu</button>
             </form>
           </div>
         </div>
       </nav>
+      
       <section class="section fillimi ">
         <div class="container-sm">
             <div class="row justify-content-center">
@@ -65,7 +66,7 @@
                         <h1 class="text-white">Më shpejtë se shpejtësia e dritës.</h1>
                         <p class="my-4 text-white">Flutura Network sjell shërbimet më të shpejta të internetit në vend.</p>
                         <button class="login-buttoni2 butonresponsiv" type="submit">Krijo Llogari</button>
-                        <button class="login-buttoni3" type="submit">Kyqu</button>
+                        <button class="login-buttoni3" type="button"  data-bs-toggle="modal" data-bs-target="#modalForm" >Kyqu</button>
 
                     </div>
                     
@@ -446,5 +447,35 @@
   </footer>
 </div>
 </section> 
+<div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content modaliloginit">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Mire se vini!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class=" logomodal">
+          <li class=""><a class="link-dark align-items-center" href="#"><img src="./img/logowhite.png"class="bi" width="200" height="80"></img></a></li>
+        </div>
+          <div class="modal-body trupimodalit">
+              <form>
+                  <div class="mb-3">
+                      <label class="form-label">Perdoruesi</label>
+                      <input type="text" class="form-control perdoruesi" id="username" name="username" placeholder="Perdoruesi" />
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input type="password" class="form-control perdoruesi" id="password" name="password" placeholder="Password" />
+                  </div>
+                  <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="rememberMe" />
+                      <label class="form-check-label" for="rememberMe">Me mbaj mend</label>
+                  </div>
+                  <div class="modal-footer d-block">
+                      <p class="float-start noacc">S'keni llogari? <a href="#">Krijo</a></p>
+                      <button type="submit" class="btn btn-warning float-end">Kyqu</button>
+                  </div>
+              </form>
+          </div>
 </body>
 </html>
