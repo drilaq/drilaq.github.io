@@ -727,6 +727,7 @@ height: 600px;
     .login-buttoni4{
         padding: 5px 15px;
         font-size: 13px;
+        margin-bottom: 20px;
     }
     .box2-title{
         font-size: 18px;
@@ -934,7 +935,15 @@ html{
     border: none;
     border-radius: 25px;
      font-size: 16px;
-    border: 1px #00b6be solid;
+    border: 1px #e63946 solid;
+}
+.btn-krijo{
+    background-color: #e63946;
+    border: 1px #e22030 solid;
+}
+.btn-krijo:hover{
+    border: 1px #e22030 solid !important;
+    background-color: #e05863 !important;
 }
 .perdoruesi:focus{
     box-shadow: none;
